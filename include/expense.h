@@ -9,5 +9,6 @@ typedef struct {
 } Expense;
 
 void addExpense();
+void viewExpenses();
 
 #endif
