@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Iinclude -Wall -Wextra
 BUILD_DIR=build
-TARGET=$(BUILD_DIR)/expense_tracker
+TARGET=$(BUILD_DIR)/expense_tracker.exe
 
 SRCS = src/main.c src/ui.c src/expense.c src/fileops.c src/encrypt.c
 
